@@ -10,26 +10,32 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                price: '#FABE4C',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        price: '#FABE4C',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
 </head>
 
 <body>
     <header class=" bg-amber-100">
         <!-- nav -->
-        <nav class="flex justify-between">
-            <img src="images/logo.png" alt="">
-            <div class="space-x-4 ">
-                
+        <nav class="container py-8 mx-auto flex justify-between">
+            <img class="h-10 w-72 " src="icons/Group 1.png" alt="">
+            <div class="">
+                <a class="rounded space-x-6 flex" href="">
+                    <h5 class="rounded hover:bg-gray-300">Home</h5>
+                    <h5 class="rounded hover:bg-gray-300">Product</h5>
+                    <h5 class="rounded hover:bg-gray-300">About us</h5>
+                    <h5 class="rounded hover:bg-gray-300">Contact us</h5>
+                </a>
+
             </div>
         </nav>
         <!-- banner -->
@@ -64,8 +70,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Yellow Coat Jacket</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -79,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- jacket 2 card -->
                 <div class="rounded-2xl p-5 shadow-xl mt-5">
                     <div class="bg-slate-100 py-4 rounded-2xl">
@@ -88,8 +94,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Ladies Jacket</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -103,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- jacket 3 card -->
                 <div class="rounded-2xl p-5 shadow-xl mt-5">
                     <div class="bg-slate-100 py-4 rounded-2xl">
@@ -112,8 +118,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Woman Leather Jacket</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -127,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- Man jacket section -->
@@ -142,8 +148,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Snowboard Jacket Mens</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -157,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- jacket man 2 card -->
                 <div class="rounded-2xl p-5 shadow-xl mt-5">
                     <div class="bg-slate-100 py-4 rounded-2xl">
@@ -166,8 +172,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Man Leather Jackets</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -181,7 +187,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- jacket man 3 card -->
                 <div class="rounded-2xl p-5 shadow-xl mt-5">
                     <div class="bg-slate-100 py-4 rounded-2xl">
@@ -190,8 +196,8 @@
                     <div>
                         <div class="mt-3 py-4 px-4">
                             <h3 class="text-2xl">Man Casual Jackets</h3>
-                        <p>Lorem Ipsum is simply dummy text of the
-                            printing and typesetting industry.</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
                         </div>
                         <div class="flex justify-between py-2 px-4">
                             <h2 class="text-4xl font-semibold text-price">$234</h2>
@@ -205,7 +211,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </section>
         <!-- buy more -->
@@ -233,7 +239,7 @@
                 <img class="h-20 w-20" src="images/question.png" alt="">
                 <div>
                     <h3 class="text-2xl">Contact Our Seller</h3>
-                    <p>They are here to help you. That's quite 
+                    <p>They are here to help you. That's quite
                         literally what we pay them for.</p>
                 </div>
             </div>
